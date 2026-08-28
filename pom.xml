@@ -1,0 +1,40 @@
+<project 
+xmlns="http://maven.apache.org/POM/4.0.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+>
+    <modelVersion>4.0.0</modelVersion>
+    
+    <!-- Parent GAV -->
+    <parent>
+        <groupId>io.github.ishankashyap01</groupId>
+        <artifactId>super-parent-pom</artifactId>
+        <version>1.0.1</version>
+    </parent>
+
+    <!-- Project GAV -->
+
+    <groupId>io.github.ishankashyap01</groupId>
+    <artifactId>markdown-syntax-generator</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <!-- Project Information -->
+
+    <name>Markdown Syntax Generator</name>
+    <description>A Java library for generating Markdown syntax</description>
+    <url>https://github.com/IshanKashyap01/Markdown-Syntax-Generator</url>
+
+    <scm>
+        <connection>scm:git:https://github.com/IshanKashyap01/Markdown-Syntax-Generator.git</connection>
+        <developerConnection>scm:git:git@github.com:IshanKashyap01/Markdown-Syntax-Generator.git</developerConnection>
+        <url>https://github.com/IshanKashyap01/Markdown-Syntax-Generator</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <!-- Project properties: mainly Java version -->
+
+    <properties>
+        <maven.compiler.release>11</maven.compiler.release>
+    </properties>
+
+</project>
