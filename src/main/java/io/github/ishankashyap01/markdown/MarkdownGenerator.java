@@ -1,7 +1,7 @@
 package io.github.ishankashyap01.markdown;
-
 /**
  * Generates markdown syntax for links, images and tables
+ * @author Ishan Kashyap
  */
 public final class MarkdownGenerator
 {
@@ -32,9 +32,11 @@ public final class MarkdownGenerator
      * Generates table syntax in markdown
      * @param cells 2D matrix of all the cells in the table
      * @return markdown syntax for table
+     * @throws ArrayIndexOutOfBoundsException if any row's size is different than the
+     * header
      */
     public static String generateTable(String[][] cells)
     {
-        return cells[0][0];
+        return TableGenerator.generateTable(cells);
     }
 }
